@@ -1,0 +1,332 @@
+#logo
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width:300px;
+	height:300px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+	height:300px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#dropbut
+{
+	background-color: #ffcc00;
+    color: #3333cc;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	border-radius:10px;
+}
+
+#dropdown
+{
+    width:30%;
+	display: inline-block;
+}
+
+#content
+{
+	display:none;
+    position: absolute;
+    background-color: #3333cc;
+    min-width: 160px;
+	border-radius:10px;
+}
+
+div a
+{
+	color: red;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#dropdown:hover #content
+{
+	display: block;
+	background-color:#ffcc00;
+}
+
+#content a:hover
+{
+	background-color: #ff3333;
+}
+
+#content a
+{
+	color:#001133;
+}
+
+#cutie1
+{
+	float:right;
+	position:absolute;
+	background-color:#001133;
+	right:19px;
+	outline:monospace;
+	border:2px solid #ffcc00;
+	color:#ffcc00;
+}
+
+#cutie2
+{
+	float:right;
+	position:relative;
+	background-color:#001133;
+	top:30px;
+	right:10px;
+	border:2px solid #ffcc00;
+	color:#ffcc00;
+}
+
+#logbut
+{
+	float:right;
+	position:absolute;
+	background-color:lightblue;
+	top:70px;
+	right:57px;
+	
+	cursor:pointer;
+	background-color: #001133;
+	border:2px solid #ffcc00;
+	color: #ffcc00;
+	transition-duration:0.2s;
+	font-family:times new roman;
+	font-size:18px;
+	
+}
+
+#logheaza
+{
+	float:right;
+	margin-right:30px;
+	border:none;
+	cursor:pointer;
+	padding:1em 5em;
+	background-color: #001133;
+	border:2px solid #ffcc00;
+	color: #ffcc00;
+	transition-duration:0.2s;
+	font-family:times new roman;
+	font-size:18px;
+}
+
+#logheaza:hover
+{
+	background-color:#ff3333;
+	color:#001133;
+}
+
+#menu
+{
+	width:100%;
+	background-color:#ffcc00;
+	overflow:auto;
+	margin-top: 20px;
+	font-size: 30px;
+	font-family:times new roman;
+	
+}
+
+#cutie_text
+{
+	float:right;
+	margin-right:30px;
+}
+
+#buton
+{
+	float:right;
+	margin-right:30px;
+}
+
+.gallery
+{
+	display:inline-block;
+	margin: 5px;
+    width: 30%;
+}
+
+.desc
+{
+	padding: 15px;
+    text-align: center;
+	color: #ffcc00;
+}
+
+#stadion
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width:70%;
+	height:auto;
+}
+
+h3
+{
+	font-size: 30px;
+	margin-left:15px;
+	color: #ffcc00;
+}
+
+#barca_veche
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	height:auto;
+}
+
+#ronaldinho1
+{
+	width: 100%;
+	height:auto;
+	border-radius:15px;
+
+}
+
+#cruyff
+{
+	width: 100%;
+	height:auto;
+	border-radius:15px;
+}
+
+#rijkaard
+{
+	width: 100%;
+	height:auto;
+	border-radius:15px;
+}
+
+figcaption
+{
+	color: #ffcc00;
+}
+
+
+ul
+{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+li 
+{
+	float:left;
+}
+
+li a 
+{
+	color:#3333cc;
+	transition-duration:0.2s;
+}
+
+a:link
+{
+	width:365px;
+	display:block;
+	padding:15px;
+	text-decoration:none;
+	font-family:Verdana;
+	font-size:20px;
+	text-align:center;
+}
+
+a:hover
+{
+	background-color:#ff3333;
+}
+
+body
+{
+	background-color: #001133;
+}
+
+p
+{
+	padding:15px;
+	font-size:19px;
+}
+
+article p
+{
+	color:#d9d9d9;
+}
+
+#clasament
+{
+	width:100%;
+	border-collapse:collapse;
+	border:2px solid #ffcc00;
+	color:#ffcc00;
+}
+
+td
+{
+	border:2px solid #ffcc00;
+	text-align:center;
+	color;#ffcc00;
+}
+
+td:nth-child(odd)
+{
+	background-color:#990033;
+}
+
+td:nth-child(even)
+{
+	background-color:#1a53ff;
+}
+
+@media screen and (max-width:1300px)
+{
+	#stadion
+	{
+		display:inline;
+		max-width:100%;
+		width:100%;
+	}
+	
+	#stadion img
+	{
+		width:100%;
+	}
+	
+	#barca_veche
+	{
+		display:inline;
+		max-width:100%;
+		height:auto;
+	}
+	
+	#barca_veche img
+	{
+		width:100%;
+	}
+}
+
+figure img
+{
+	border-radius:15px;
+}
